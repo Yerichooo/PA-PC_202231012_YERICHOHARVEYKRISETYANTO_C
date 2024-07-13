@@ -1,5 +1,16 @@
 # PA-PC_202231012_YERICHOHARVEYKRISETYANTO_C
 
+Teori yang mendukung mengenai proyek ini adalah 
+1. Konversi Ruang Warna
+Proses untuk mengubah representasi warna dari satu sistem koordinat warna ke sistem koordinat warna yang lain. Dalam konteks pengolahan citra, ini sering kali melibatkan perubahan antara berbagai model warna seperti RGB (Red, Green, Blue), HSV (Hue, Saturation, Value), atau dalam kasus OpenCV, BGR (Blue, Green, Red).
+2. Deteksi Tepi (Edge Detection)
+Teknik dalam pengolahan citra yang bertujuan untuk mengidentifikasi titik-titik di dalam gambar di mana intensitas cahaya berubah secara tajam. Hal ini membantu dalam menentukan batas antara objek dalam gambar dengan latar belakangnya, yang penting untuk berbagai aplikasi seperti segmentasi objek, analisis struktur, dan pengenalan pola. Dalam proyek ini, deteksi tepi dilakukan menggunakan algoritma Canny.
+3. Pencarian Kontur (Contour Detection)
+Pencarian kontur melibatkan deteksi dan analisis bentuk objek dalam gambar. Kontur merupakan kurva yang menghubungkan titik-titik dengan intensitas warna yang sama.
+4. Visualisasi
+Visualisasi dalam pengolahan citra digunakan untuk menampilkan hasil pengolahan gambar, hasil deteksi tepi dan pencarian kontur divisualisasikan menggunakan Matplotlib.
+---------------------
+
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
